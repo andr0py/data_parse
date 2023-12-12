@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<movies>
+  <movie id="1" genre="horror, sci-fi" runtime="117">
+    <title>Alien</title>
+    <year>1979</year>
+    <director>Ridley Scott</director>
+    <writers>Dan O'Bannon, Ronald Shusett</writers>
+    <actors>Sigourney Weaver, Tom Skerritt, John Hurt</actors>
+    <plot>
+      A Nostromo nevű űrhajó egy idegen életformát fedez fel a világűrben. A lény megöli a legénység több tagját, és a túlélőknek meg kell találniuk a módját, hogy megszabaduljanak tőle.
+    </plot>
+  </movie>
+  <movie id="2" genre="horror, sci-fi" runtime="137">
+    <title>Aliens</title>
+    <year>1986</year>
+    <director>James Cameron</director>
+    <writers>James Cameron, David Giler, Walter Hill</writers>
+    <actors>Sigourney Weaver, Michael Biehn, Carrie Henn</actors>
+    <plot>
+      Ellen Ripley, a Nostromo túlélője 57 évvel a történtek után felébred egy hibernációs kamrából. Egy újabb idegen támadást követően Ripley és egy csapat katona a LV-426-os bolygóra indul, hogy megsemmisítse az idegeneket.
+    </plot>
+  </movie>
+  <movie id="3" genre="horror, sci-fi" runtime="152">
+    <title>Alien 3</title>
+    <year>1992</year>
+    <director>David Fincher</director>
+    <writers>David Giler, Walter Hill, Larry Ferguson</writers>
+    <actors>Sigourney Weaver, Charles S. Dutton, Charles Dance</actors>
+    <plot>
+      Ripley egy börtönbolygón talál menedéket, ahol azonban hamarosan újabb idegenekkel találja magát szemben.
+    </plot>
+  </movie>
+  <movie id="4" genre="horror, sci-fi" runtime="138">
+    <title>Alien Resurrection</title>
+    <year>1997</year>
+    <director>Jean-Pierre Jeunet</director>
+    <writers>Ridley Scott, Joss Whedon, Vincent Ward</writers>
+    <actors>Sigourney Weaver, Winona Ryder, Ron Perlman</actors>
+    <plot>
+      Ripleyt egy titkos kormányzati projektben újjáélesztik, és egy új idegen fajjal találja szembe magát.
+    </plot>
+  </movie>
+  <movie id="5" genre="sci-fi" runtime="114">
+    <title>Prometheus</title>
+    <year>2012</year>
+    <director>Ridley Scott</director>
+    <writers>Ridley Scott, Damon Lindelof, Jon Spaihts</writers>
+    <actors>Noomi Rapace, Michael Fassbender, Charlize Theron</actors>
+    <plot>
+      Egy csapat tudós egy ősi idegen civilizáció nyomait követi a bolygók között.
+    </plot>
+  </movie>
+  <movie id="6" genre="sci-fi" runtime="122">
+    <title>Alien: Covenant</title>
+    <year>2017</year>
+    <director>Ridley Scott</director>
+    <writers>Ridley Scott, Michael Green</writers>
+    <actors>Michael Fassbender, Katherine Waterston, Billy Crudup</actors>
+    <plot>
+      Egy csapat telepes egy idegen bolygóra indul, ahol azonban hamarosan egy újabb idegen fajjal találja magát szemben.
+    </plot>
+  </movie>
+</movies>
