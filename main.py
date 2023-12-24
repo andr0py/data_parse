@@ -23,6 +23,3 @@ for movie in root.findall("movie"):
     # kiíratjuk formázottan
     print(f"{cim}, {megjelenes}, {kategoria}, {hossz} perc ".ljust(72, '.'),\
           f"\n{textwrap.fill(sztori, width=72).strip()}\n{'.'*72}\n")
-
-git_log_command = subprocess.check_output("git log --oneline", encoding="UTF-8")
-print(git_log_command)
