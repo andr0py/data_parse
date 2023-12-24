@@ -4,7 +4,7 @@ import xml.etree.ElementTree as ET
 import textwrap
 
 # element tree inicializálása / fájl beolvasás
-tree = ET.parse("data.xml")
+tree = ET.parse("alien_franchise.xml")
 root = tree.getroot()
 
 # jelenítsük meg a filmek címét, megjelenés dátumát, kategóriáját, játékidőt, és az összefoglalót.
