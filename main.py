@@ -2,7 +2,6 @@
 import xml.etree.ElementTree as ET
 # text wrap importálása
 import textwrap
-import subprocess
 
 # element tree inicializálása / fájl beolvasás
 tree = ET.parse("data.xml")
