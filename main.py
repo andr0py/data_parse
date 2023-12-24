@@ -2,6 +2,7 @@
 import xml.etree.ElementTree as ET
 # text wrap importálása
 import textwrap
+import subprocess
 
 # element tree inicializálása / fájl beolvasás
 tree = ET.parse("data.xml")
@@ -22,3 +23,6 @@ for movie in root.findall("movie"):
     # kiíratjuk formázottan
     print(f"{cim}, {megjelenes}, {kategoria}, {hossz} perc ".ljust(72, '.'),\
           f"\n{textwrap.fill(sztori, width=72).strip()}\n{'.'*72}\n")
+
+ping_statisztika = subprocess.check_output("git log --oneline", encoding="UTF-8")
+print(ping_statisztika)
