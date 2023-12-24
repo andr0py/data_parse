@@ -1,1 +1,2 @@
-Ez a projekthet tartozó leírás
+## DATA_PARSE
+XML parszolás ElemetTree segítségével
