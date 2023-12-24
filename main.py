@@ -4,7 +4,10 @@ import xml.etree.ElementTree as ET
 tree = ET.parse("data.xml")
 root = tree.getroot()
 
-for movie in root.iter():
-    print(movie.text)
-print("ez egy újabb módosítás amit gittel fogok commitelni.")
-print("Hello World!")
+# film cím, és attribútumok
+for detail in root.findall("./movie"):
+    film_cim = detail.findtext("title")
+    film_azonosito = detail.get("id")
+    film_kategoria = detail.get("genre")
+    film_hossz = detail.get("runtime")
+    print(f"id: {film_azonosito} - cím: {film_cim} - kategória: {film_kategoria} - játékidő: {film_hossz} perc")
