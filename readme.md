@@ -1,2 +1,1 @@
-## DATA_PARSE
-XML parszolás ElemetTree segítségével
+XML Data Parszolása ElemetTree segítségével, és GIT verziókezelés. 
